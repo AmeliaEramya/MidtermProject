@@ -80,3 +80,5 @@ C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\EntityFram
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\EntityFramework.SqlServer.dll
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\EntityFramework.xml
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.Migrations.InitialCreate.resources
+C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.csproj.GenerateResource.cache
