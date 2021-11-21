@@ -72,7 +72,6 @@ C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\System.Web
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\Newtonsoft.Json.xml
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\Antlr3.Runtime.pdb
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.csproj.AssemblyReference.cache
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.csproj.CoreCompileInputs.cache
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.dll
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.pdb
@@ -82,3 +81,6 @@ C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\EntityFram
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\bin\EntityFramework.SqlServer.xml
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.Migrations.InitialCreate.resources
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.csproj.GenerateResource.cache
+C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.Migrations.CourseTableAdded.resources
+C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.Migrations.ChangedStudentTable.resources
+C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.csproj.AssemblyReference.cache

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MidtermProject.Models.Students>
+﻿@model IEnumerable<MidtermProject.Models.Student>
 
 @{
     ViewBag.Title = "Student Info";
@@ -19,10 +19,13 @@
             @Html.DisplayNameFor(model => model.LastName)
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.CourseId)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.EnrollmentDate)
+            @Html.DisplayNameFor(model => model.CourseEnrolledDate)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CourseStatus)
@@ -46,7 +49,7 @@
                 @Html.DisplayFor(modelItem => item.CourseId)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                @Html.DisplayFor(modelItem => item.CourseEnrolledDate)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CourseStatus)

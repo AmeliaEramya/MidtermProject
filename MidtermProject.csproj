@@ -136,8 +136,18 @@
     <Compile Include="Migrations\202111162254538_InitialCreate.designer.cs">
       <DependentUpon>202111162254538_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111191601179_CourseTableAdded.cs" />
+    <Compile Include="Migrations\202111191601179_CourseTableAdded.Designer.cs">
+      <DependentUpon>202111191601179_CourseTableAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111192206407_ChangedStudentTable.cs" />
+    <Compile Include="Migrations\202111192206407_ChangedStudentTable.Designer.cs">
+      <DependentUpon>202111192206407_ChangedStudentTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\18YearsValidation.cs" />
     <Compile Include="Models\Courses.cs" />
+    <Compile Include="Models\CourseStatus.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\StudentContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -209,6 +219,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202111162254538_InitialCreate.resx">
       <DependentUpon>202111162254538_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111191601179_CourseTableAdded.resx">
+      <DependentUpon>202111191601179_CourseTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111192206407_ChangedStudentTable.resx">
+      <DependentUpon>202111192206407_ChangedStudentTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

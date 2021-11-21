@@ -41,13 +41,17 @@ namespace MidtermProject.Controllers
 
         public ActionResult Create()
         {
-            var model = new StudentViewModel()
-            {
-                Student = new Student(),
-                CourseList = db.Courses.ToList()
-            };
+            var model = new StudentViewModel();
 
-            return View();
+            var statuses = new List<CourseStatus>();
+            statuses.Add(new CourseStatus() { Id = 1, Name = "InProgress" });
+            statuses.Add(new CourseStatus() { Id = 2, Name = "Completed" });
+            model.CourseList = db.Courses.ToList();
+            model.Student = new Student();
+            model.CourseStatuses = statuses;
+
+            return View(model);
+
         }
 
         [HttpPost]
@@ -60,6 +64,14 @@ namespace MidtermProject.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
+            var statuses = new List<CourseStatus>();
+
+            statuses.Add(new CourseStatus() { Id = 1, Name = "InProgress" });
+            statuses.Add(new CourseStatus() { Id = 2, Name = "Completed" });
+            students.CourseList = db.Courses.ToList();
+            students.Student = students.Student;
+            students.CourseStatuses = statuses;
 
             return View(students);
         }
@@ -109,8 +121,6 @@ namespace MidtermProject.Controllers
             }
             return View(students);
         }
-
-
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

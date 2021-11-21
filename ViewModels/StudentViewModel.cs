@@ -11,6 +11,6 @@ namespace MidtermProject.ViewModels
     {
         public Student Student { get; set; }
         public List<Courses> CourseList { get; set; }
-        public List<SelectList> CourseStatuses { get; set; }
+        public List<CourseStatus> CourseStatuses { get; set; }
     }
 }
