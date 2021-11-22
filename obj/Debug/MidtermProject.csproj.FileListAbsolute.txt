@@ -84,3 +84,4 @@ C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\Midt
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.Migrations.CourseTableAdded.resources
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.Migrations.ChangedStudentTable.resources
 C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.csproj.AssemblyReference.cache
+C:\Users\Amelia Eramya\source\repos\MidtermProject\MidtermProject\obj\Debug\MidtermProject.Migrations.DateOfBirth.resources

@@ -1,5 +1,5 @@
 ﻿
-@model MidtermProject.Models.Students
+@model MidtermProject.Models.Student
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -36,11 +36,11 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.EnrollmentDate)
+            @Html.DisplayNameFor(model => model.CourseEnrolledDate)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.EnrollmentDate)
+            @Html.DisplayFor(model => model.CourseEnrolledDate)
         </dd>
 
         <dt>
